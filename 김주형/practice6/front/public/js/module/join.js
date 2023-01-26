@@ -12,7 +12,7 @@ const checkInput = async (inputId, reg, callback) => {
       } else {
         error.style.opacity = 0;
         error.style.transition = "opacity 0.2s ease-in-out";
-        if (callback) callback(inputId);
+        callback(inputId);
       }
     });
 };
